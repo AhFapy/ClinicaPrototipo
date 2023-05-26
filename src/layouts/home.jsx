@@ -18,7 +18,7 @@ export default function Home(){
 
             <p className='contacta-text'>En las clínicas de <strong>Orbita Med</strong> garantizamos servicios de máxima calidad en Madrid</p>
             <p className='contacta-text'>Contacta con nosotros mediante nuestro número de <strong>atención al cliente</strong></p>
-            <a aria-label="Chat on WhatsApp" href="https://wa.me/647615734"><img alt="Chat on WhatsApp" src="https://i.imgur.com/gEyIfmR.png"/>
+            <a aria-label="Chat on WhatsApp" href=""><img alt="Chat on WhatsApp" src="https://i.imgur.com/gEyIfmR.png"/>
               </a>
           
 
