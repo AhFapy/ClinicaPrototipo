@@ -11,7 +11,11 @@
 nav {
     display: flex;
     height: 10vh;
-    color: white;    
+    color: white;
+    position: fixed;
+    z-index: 9999; 
+    width: 100%;  
+    background-color: white;    
 }
 
 .img-navbar {
