@@ -14,7 +14,7 @@ const hideDropdown = () => {
   return (
     <nav>
       <div className="img-navbar">
-         <img className="nav-logo" src="https://www.zarla.com/images/zarla-rbita-med-1x1-2400x2400-20220202-jxw6xtrdhr6tmhkb8fpj.png?crop=1:1,smart&width=250&dpr=2"></img>
+         <a className="nav-logo nav-logo-link" href="/"><img className="nav-logo" src="https://www.zarla.com/images/zarla-rbita-med-1x1-2400x2400-20220202-jxw6xtrdhr6tmhkb8fpj.png?crop=1:1,smart&width=250&dpr=2"></img></a>
       </div>
 
       <div className="nav-links dropdown">
@@ -28,14 +28,14 @@ const hideDropdown = () => {
 
           {state ? (
           <ul className="dropdown-list" onMouseEnter={showDropdown}>
-            <a className="dd-element" href="#">Sobre Nosotros</a>
+            <a className="dd-element" href="./reseñas">Reseñas</a>
           </ul>
           ): null}
           
         </div>
 
         <div className="dropdown-menu">
-        <a className="dropdown-btn">Servicios</a>
+        <a href="/servicios" className="dropdown-btn">Servicios</a>
         </div>
 
         <div className="dropdown-menu">
