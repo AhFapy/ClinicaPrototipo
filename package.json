@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "ajax": "^0.0.4",
+    "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
     "git": "^0.1.5",
     "rc-slider": "^10.1.1",

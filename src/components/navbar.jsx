@@ -39,7 +39,7 @@ const hideDropdown = () => {
         </div>
 
         <div className="dropdown-menu">
-        <a className="dropdown-btn">Comunidad</a>
+        <a className="dropdown-btn" href="/valores">Citas</a>
         </div>
 
         </div>

@@ -16,9 +16,9 @@ export default function Home(){
             <h1 className='contacta-header'>Bienvenido al portal virtual de Órbita Med</h1>
             <br/>
 
-            <p className='contacta-text'>En las clínicas de <strong>Orbita Med</strong> garantizamos servicios de máxima calidad en Madrid</p>
-            <p className='contacta-text'>Contacta con nosotros mediante nuestro número de <strong>atención al cliente</strong></p>
-            <a aria-label="Chat on WhatsApp" href=""><img alt="Chat on WhatsApp" src="https://scontent.fbcn7-3.fna.fbcdn.net/v/t39.8562-6/302524815_3448899778679909_2843186333341006023_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6825c5&_nc_ohc=VZv0luOGD5YAX9wvwDE&_nc_ht=scontent.fbcn7-3.fna&oh=00_AfB-_RlzPLRzommR1MtROZxPes0uHxG0w6-Q20JHohlBTQ&oe=6475714F"/>
+            <p className='contacta-text'>En las clínicas de <strong className='strong'>Orbita Med</strong> garantizamos servicios de máxima calidad en Madrid</p>
+            <p className='contacta-text'>Contacta con nosotros mediante nuestro número de <strong className='strong'>atención al cliente</strong></p>
+            <a className='was-link' aria-label="Chat on WhatsApp" href="https://wa.me/15517868"><img alt="Chat on WhatsApp" src="https://scontent.fbcn7-3.fna.fbcdn.net/v/t39.8562-6/302524815_3448899778679909_2843186333341006023_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6825c5&_nc_ohc=VZv0luOGD5YAX9wvwDE&_nc_ht=scontent.fbcn7-3.fna&oh=00_AfB-_RlzPLRzommR1MtROZxPes0uHxG0w6-Q20JHohlBTQ&oe=6475714F"/>
               </a>
           
 
