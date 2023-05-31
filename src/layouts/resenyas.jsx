@@ -2,7 +2,7 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import SliderElements from '../components/sliderElements'
 
-const Reseñas = () => {
+const Resenyas = () => {
   return (
     <div>
       <Navbar></Navbar>
@@ -12,4 +12,4 @@ const Reseñas = () => {
   )
 }
 
-export default Reseñas
+export default Resenyas

@@ -28,7 +28,7 @@ const hideDropdown = () => {
 
           {state ? (
           <ul className="dropdown-list" onMouseEnter={showDropdown}>
-            <a className="dd-element" href="./reseñas">Reseñas</a>
+            <a className="dd-element" href="./resenyas">Reseñas</a>
           </ul>
           ): null}
           

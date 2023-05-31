@@ -2,8 +2,8 @@ import React from 'react'
 
 const Servicio = (props) => {
   const styles = {
-    width: '30vw',
-    height: '50vh',
+    width: '60vw',
+    height: '60vh',
     marginTop: '5vh',
     backgroundColor: 'aqua',
     backgroundImage: `url(${props.img})`,

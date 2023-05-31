@@ -22,7 +22,7 @@ const Servicios = () => {
             deleteSpeed={50}
             delaySpeed={1000}
           /></h1>
-        <Servicio img="https://clinicagirona.cat/wp-content/uploads/2022/08/clinica-girona-personal0118.jpg"></Servicio>
+        <Servicio className="styles" img="https://clinicagirona.cat/wp-content/uploads/2022/08/clinica-girona-personal0118.jpg"></Servicio>
       </div>
 
       <div className='servicio'>
@@ -37,7 +37,7 @@ const Servicios = () => {
             delaySpeed={1000}
           /></h1>
         
-      <Servicio img='https://www.clinicaroiz.es/wp-content/uploads/2019/09/ANALISISCLINICOS.jpg'></Servicio>
+      <Servicio className="styles" img='https://www.clinicaroiz.es/wp-content/uploads/2019/09/ANALISISCLINICOS.jpg'></Servicio>
       </div>
 
       <div className='servicio'>
@@ -51,7 +51,7 @@ const Servicios = () => {
             deleteSpeed={50}
             delaySpeed={1000}
           /></h1>
-      <Servicio img='https://www.campustraining.es/wp-content/uploads/2021/10/secretaria-direccion.jpg'></Servicio>
+      <Servicio className="styles" img='https://www.campustraining.es/wp-content/uploads/2021/10/secretaria-direccion.jpg'></Servicio>
       </div>
     </div>
     <Footer/>

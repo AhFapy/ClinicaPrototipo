@@ -48,7 +48,7 @@ const sliderElements = (props) => {
         <Slide>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
+              <div className='clase' style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
                 <span style={spanStyle}>{slideImage.username}</span>
                 <span style={spanStyle}>{slideImage.caption}</span>
               </div>
